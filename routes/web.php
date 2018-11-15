@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    $artistsobject = DB::table('artists')->get();
+//    $artistsobject = DB::table('artists')->get();
     $artistsobject = [
         0=>[
             'id' => 1,
