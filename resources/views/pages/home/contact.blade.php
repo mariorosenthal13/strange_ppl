@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="form">
-<!--        --><?php //echo Form::open(array('action' => 'EmailController@send')) ?>
+<?php echo Form::open(array('action' => 'EmailController@send')) ?>
                 <div class="row fild_1">
                     <div class="col-sm-6">
                         <input type="text" class="form-control" name="name" placeholder="Full name">
@@ -23,7 +23,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" name="content" rows="3" placeholder="Message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
-<!--        --><?php //echo Form::close() ?>
+<?php echo Form::close() ?>
         </div>
     </div>
 </section>

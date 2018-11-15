@@ -2,18 +2,7 @@
 <!-- START FOOTER SECTION -->
 <?php
     $eventsobject = DB::table('events')->get();
-//$eventsobject =  [
-//    0=>[
-//        'id' => 1,
-//        'day' => '17',
-//        'month' => 'mor',
-//        'year' => '2018',
-//        'city' => 'miami',
-//        'state' => 'asdfasdf',
-//        'name' => 'asdfsfd',
-//        'venue' => 'asdfasfd',
-//    ]
-//];
+
 foreach ($eventsobject as $key => $event)
 {
     $events[$key] = [
@@ -26,14 +15,6 @@ foreach ($eventsobject as $key => $event)
             'state' => $event->state,
             'name' => $event->name,
             'venue' => $event->venue
-//        'id' => $event['id'],
-//        'day' => $event['day'],
-//        'month' => $event['month'],
-//        'year' => $event['year'],
-//        'city' => $event['city'],
-//        'state' => $event['state'],
-//        'name' => $event['name'],
-//        'venue' => $event['venue']
     ] ;
 }
 array_reverse($events);?>
