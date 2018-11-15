@@ -23,7 +23,8 @@
     {{--</div>--}}
     {{--<!-- END SEARCH BAR SECTION  -->--}}
     <!-- HEADER BACKGROUND IMAGE  -->
-    <div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>
+    {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
+    <div class="bg_image" style="background-image: url(../../../../img/mountains.jpg)"></div>
     <div class="overly"></div>
     <div class="header-continer">
         <div class="section">
