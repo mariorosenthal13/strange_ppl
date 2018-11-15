@@ -12,36 +12,36 @@
 */
 
 Route::get('/', function () {
-    $artistsobject = DB::table('artists')->get();
-    foreach ($artistsobject as $key => $artist)
-    {
-        $artists[$key] = [
-            'id' => $artist->id,
-            'first_name' => $artist->first_name,
-            'last_name' => $artist->last_name,
-            'picture' => $artist->picture,
-            'bio' => $artist->bio,
-            'facebook' => $artist->facebook,
-            'twitter' => $artist->twitter,
-            'soundcloud' => $artist->soundcloud
-        ] ;
-    }
-    shuffle($artists);
-    $eventsobject = DB::table('events')->get();
-    foreach ($eventsobject as $key => $event)
-    {
-        $events[$key] = [
-            'id' => $event->id,
-            'day' => $event->day,
-            'month' => $event->month,
-            'year' => $event->year,
-            'city' => $event->city,
-            'state' => $event->state,
-            'name' => $event->name,
-            'venue' => $event->venue
-        ] ;
-    }
-    array_reverse($events);
+//    $artistsobject = DB::table('artists')->get();
+//    foreach ($artistsobject as $key => $artist)
+//    {
+//        $artists[$key] = [
+//            'id' => $artist->id,
+//            'first_name' => $artist->first_name,
+//            'last_name' => $artist->last_name,
+//            'picture' => $artist->picture,
+//            'bio' => $artist->bio,
+//            'facebook' => $artist->facebook,
+//            'twitter' => $artist->twitter,
+//            'soundcloud' => $artist->soundcloud
+//        ] ;
+//    }
+//    shuffle($artists);
+//    $eventsobject = DB::table('events')->get();
+//    foreach ($eventsobject as $key => $event)
+//    {
+//        $events[$key] = [
+//            'id' => $event->id,
+//            'day' => $event->day,
+//            'month' => $event->month,
+//            'year' => $event->year,
+//            'city' => $event->city,
+//            'state' => $event->state,
+//            'name' => $event->name,
+//            'venue' => $event->venue
+//        ] ;
+//    }
+//    array_reverse($events);
 
     return view('pages.home' ,compact('artists', 'events'));
 });
