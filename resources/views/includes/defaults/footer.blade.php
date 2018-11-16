@@ -49,7 +49,7 @@ array_reverse($events);?>
             </div>
             <div class="col">
                 <div class="footer_logo">
-                    <img src="{{ asset('img/strange-people-white.png')  }}" alt="Logo">
+                    <img src="{{ asset('/img/strange-people-white.png')  }}" alt="Logo">
                 </div>
                 <div class="info">
                     <p class="main_p">Van Down By the River</p>

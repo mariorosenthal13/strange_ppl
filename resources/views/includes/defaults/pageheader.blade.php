@@ -5,7 +5,7 @@
     <div class="header-continer">
         <div class="section">
             <!-- LOGO -->
-            <div class="logo"><a href="/"><img src="{{ asset('img/strange-people-white.png') }}" alt="Logo"></a></div>
+            <div class="logo"><a href="/"><img src="{{ asset('/img/strange-people-white.png') }}" alt="Logo"></a></div>
             <div class="header_items">
                 <div class="menu_icon">
                     <i class="fa fa-bars" aria-hidden="true"></i>

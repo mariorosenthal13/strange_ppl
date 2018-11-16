@@ -44,7 +44,7 @@
         <div class="row j_c">
             <div class="col sec_2_content">
                 <div class="cover-image">
-                    <img src="{{ asset( "img/" . $artist->picture) }}" alt="Cover Image">
+                    <img src="{{ asset( "/img/" . $artist->picture) }}" alt="Cover Image">
                 </div>
                 <div class="music_date">
                     <a href="#"><p><i class="fa fa-calendar" aria-hidden="true"></i><span>August 20, 2018</span></p></a>
