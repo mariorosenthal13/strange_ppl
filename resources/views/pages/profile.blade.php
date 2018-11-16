@@ -1,1 +1,4 @@
-<?php var_dump($artist); ?>
+@extends('layouts.page')
+@section('content')
+    @include('pages.profile.content')
+@stop

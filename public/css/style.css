@@ -1691,7 +1691,7 @@ a.anim_border::after {
     line-height: 13vw;
 }
 .global-title{
-    position: absolute;
+    /*position: absolute;*/
     top: 20%;
     left: 0;
     right: 0;
@@ -1876,7 +1876,7 @@ a.anim_border::after {
 }
 #discography-post {
     overflow: hidden;
-    padding-top: 70px;
+    padding-top: 0px;
 }
 #discography-post .section > .row {
     margin: 0px;
@@ -5740,7 +5740,7 @@ body.single-product #releated-products > .section {
 
     /***** Music Single Album *****/
     #discography-post{
-        padding-top: 55px;
+        padding-top: 6px;
     }
     .social-icons{
         padding-left: 80px;
@@ -8269,7 +8269,7 @@ body.single-product #releated-products > .section {
         font-size: 24px;
     }
     #discography-post {
-        padding-top: 30px;
+        padding-top: 49px;
     }
 
     #discography-post .mp3 .plyr__time + .plyr__time {

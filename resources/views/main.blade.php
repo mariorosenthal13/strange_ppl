@@ -47,7 +47,7 @@
     <!-- START MENU SECTION -->
     <div class="nav-menu">
         <!-- NAV BAR BACKGROUND IMAGE-->
-        <div class="section_bg_image" style="background-image: url(https://picsum.photos/1920x900)"></div>
+        <div class="section_bg_image" style="background-image: url({{ asset('img/blackcanvas.jpg') }})"></div>
         <!-- START NAV BAR-->
         <ul class="nav flex-column section">
             <li class="nav-item">
@@ -160,7 +160,7 @@
     <div class="header-continer">
         <div class="section">
             <!-- LOGO -->
-            <div class="logo"><a href="/"><img src="img/strange-people-white.png" alt="Logo"></a></div>
+            <div class="logo"><a href="/"><img src="{{ asset('img/strange-people-white.png') }}" alt="Logo"></a></div>
             <div class="header_items">
                 <div class="menu_icon">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -175,7 +175,7 @@
     <div class="section section_1_title">
         <div class="big-title">
             <!--<h1>beatswave</h1>-->
-            <img src="img/strange-people-white.png" alt="Logo 1">
+            <img src="{{ asset('img/strange-people-white.png') }}" alt="Logo 1">
         </div>
         <div class="header-title wow zoomIn">
             <h1><span>Strange</span> Music For <span>Strange</span> People</h1>

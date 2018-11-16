@@ -77,9 +77,13 @@ Route::get('/artists', function () {
 });
 
 Route::get('profile/{id}', function ($id) {
+    $data = [
+        'bodyclass' => 'music-single-album'
+    ];
+
     $artist = DB::table('artists')->where('id', $id)->first();
 
-    return view('pages.profile', compact('artist'));
+    return view('pages.profile', compact('data','artist'));
 })->where('id', '[0-9]+');
 
 Route::get('/events', function () {

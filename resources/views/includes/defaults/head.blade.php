@@ -7,21 +7,21 @@
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 <title>Strange People / Home</title>
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/icon" href="images/favicon.png"/>
+<link href="{{ asset('img/favicon.ico') }}" rel="shortcut icon" type="image/icon" />
 <!-- Font Awesome -->
-<link href="css/font-awesome.css" rel="stylesheet">
+<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 <!-- Bootstrap -->
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 <!-- Animate css -->
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+<link  href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css"/>
 <!-- Player css -->
-<link href="css/player.css" rel="stylesheet">
+<link href="{{ asset('css/player.css') }}" rel="stylesheet">
 <!-- Bootstrap Formhelpers -->
-<link href="css/bootstrap-formhelpers.css" rel="stylesheet">
+<link href="{{ asset('css/bootstrap-formhelpers.css') }}" rel="stylesheet">
 <!-- Country Select -->
-<link rel="stylesheet" href="css/chosen.css">
+<link href="{{ asset('css/chosen.css') }}" rel="stylesheet" >
 <!-- Main Style -->
-<link href="css/style.css" rel="stylesheet">
+<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 <!-- Fonts -->
 <!-- For title and buttons "Oswald" font -->
 <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
