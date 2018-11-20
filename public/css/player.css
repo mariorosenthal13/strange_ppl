@@ -795,7 +795,7 @@ a[id^="btn"]::-moz-focus-inner {
 .music > span:nth-child(5){
     top: 185px;
 }
-#album-release .plyr__controls,#discography-post .mp3 .plyr__controls{
+#discography-text .plyr__controls,#discography-post .mp3 .plyr__controls{
     background-color: rgb(34, 34, 34);
 }
 .plyr--playing .plyr__controls [data-plyr=pause] svg{

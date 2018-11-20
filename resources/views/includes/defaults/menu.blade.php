@@ -1,7 +1,7 @@
 <!-- START MENU SECTION -->
 <div class="nav-menu">
     <!-- NAV BAR BACKGROUND IMAGE-->
-    <div class="section_bg_image" style="background-image: url({{ asset('/img/blackcanvas.jpg') }})"></div>
+    <div class="section_bg_image" style="background-image: url({{ url('/img/blackcanvas.jpg') }})"></div>
     <!-- START NAV BAR-->
     <ul class="nav flex-column section">
         <li class="nav-item">

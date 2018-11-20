@@ -19,7 +19,7 @@ foreach ($eventsobject as $key => $event)
 }
 array_reverse($events);?>
 <footer id="footer">
-    <div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>
+    <div class="bg_image" style="background-image: url({{ url('/img/footertrees.jpg') }})"></div>
     <div class="overly"></div>
     <div class="section">
         <div class="row footer">
@@ -49,7 +49,7 @@ array_reverse($events);?>
             </div>
             <div class="col">
                 <div class="footer_logo">
-                    <img src="{{ asset('/img/strange-people-white.png')  }}" alt="Logo">
+                    <img src="{{ url('/img/strange-people-white.png')  }}" alt="Logo">
                 </div>
                 <div class="info">
                     <p class="main_p">Van Down By the River</p>

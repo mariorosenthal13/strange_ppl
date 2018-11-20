@@ -13,10 +13,10 @@ class EmailController extends Controller
 
         Mail::send('email.send', ['name' => $name, 'email' => $email, 'content' => $content], function ($message)
         {
-
+            $toEmails = ['mario.f.rosenthal@gmail.com'];
             $message->from('mario.f.rosenthal@gmail.com', 'Strange People Website');
 
-            $message->to('mario.f.rosenthal@gmail.com');
+            $message->to( $toEmails );
             $message->subject("bitch ass nigga");
 
         });
