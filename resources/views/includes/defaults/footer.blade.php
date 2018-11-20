@@ -53,7 +53,7 @@ array_reverse($events);?>
                 </div>
                 <div class="info">
                     <p class="main_p">Van Down By the River</p>
-                    <p><a href="tel: +1 (786) 818-0694">Phone: +1 (786) 818-0694</a></p>
+                    {{--<p><a href="tel: +1 (786) 818-0694">Phone: +1 (786) 818-0694</a></p>--}}
                     <p><a href="mailto:support@bets.com">Email: booking@strangeppl.com</a></p>
                 </div>
                 <div class="folow">
