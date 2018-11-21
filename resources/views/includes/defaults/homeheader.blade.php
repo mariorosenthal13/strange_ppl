@@ -60,6 +60,7 @@
                 '<h1>People are <span>Strange</span></h1>',
                 '<h1><span>Strange</span> People Things</h1>',
                 '<h1>For the <span>Strange</span> Music Lovers</h1>',
+                '<h1><span>Strange</span> Enough</h1>',
             ];
             echo $titles[rand(0,9)];
             ?>
