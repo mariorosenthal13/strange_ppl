@@ -44,16 +44,17 @@
         <div class="row j_c">
             <div class="col sec_2_content">
                 <div class="cover-image">
+                    <?php xdebug_break(); ?>
                     <img src="{{ url( "/img/" . $artist->picture) }}" alt="Cover Image">
                 </div>
                 <div class="music_date">
-                    <a href="#"><p><i class="fa fa-calendar" aria-hidden="true"></i><span>August 20, 2018</span></p></a>
-                    <a href="#"><p><i class="fa fa-music" aria-hidden="true"></i><span>Tedeschi Trucks Band</span></p></a>
-                    <a href="#"><p><i class="fa fa-tags" aria-hidden="true"></i><span>Masterworks</span></p></a>
+                    {{--<a href="#"><p><i class="fa fa-calendar" aria-hidden="true"></i><span>August 20, 2018</span></p></a>--}}
+                    {{--<a href="#"><p><i class="fa fa-music" aria-hidden="true"></i><span>Tedeschi Trucks Band</span></p></a>--}}
+                    {{--<a href="#"><p><i class="fa fa-tags" aria-hidden="true"></i><span>Masterworks</span></p></a>--}}
                 </div>
                 <div class="music_after">
-                    <p><a href="">Producer: Jim Scott, Derek Trucks</a></p>
-                    <p><a href="">Number of discs: 1</a></p>
+                    {{--<p><a href="">Producer: Jim Scott, Derek Trucks</a></p>--}}
+                    {{--<p><a href="">Number of discs: 1</a></p>--}}
                 </div>
                 <div class="music_shop">
                     <a href="#" class="shop_cta">AMAZON</a>

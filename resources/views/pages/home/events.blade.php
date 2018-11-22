@@ -16,7 +16,8 @@
                 <div class="row ticket">
                     <div class="col">
                         <div class="row">
-                            <a class="col-10 ticket-link" href="events/<?php echo $event['id'] ?>">
+                            <a class="col-10 ticket-link" href="">
+                            <!--  {{-- <a class="col-10 ticket-link" href="events/<?php echo $event['id'] ?>"> --}} -->
                                 <div class="day">
                                     <div class="day_num">
                                         <span><?php echo $event['day'] ?></span>
@@ -31,7 +32,7 @@
                                 </div>
                             </a>
                             <div class="col-2 buy">
-                                <a href="#">More Info</a>
+                                {{--<a href="#">More Info</a>--}}
                             </div>
                         </div>
                     </div>

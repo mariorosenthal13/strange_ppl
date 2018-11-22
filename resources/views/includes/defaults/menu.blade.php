@@ -10,34 +10,34 @@
         <li class="nav-item">
             <a class="nav-link" href="/artists">Artists</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Music</a>
-            <ul class="child-item">
-                <li class="dropdown-child-item">
-                    <a class="nav-link" href="/catalog">Catalog</a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Events</a>
-            <ul class="child-item">
-                <li class="dropdown-child-item">
-                    <a class="nav-link" href="/events">Upcoming Events</a>
-                </li>
-                <li class="dropdown-child-item">
-                    <a class="nav-link" href="04-Events-All-Events.html">Past Events</a>
-                </li>
-                <li class="dropdown-child-item">
-                    <a class="nav-link" href="04-Events-All-Events.html">All Events</a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/blog">Blog</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
-        </li>
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="javascript:void(0);">Music</a>--}}
+            {{--<ul class="child-item">--}}
+                {{--<li class="dropdown-child-item">--}}
+                    {{--<a class="nav-link" href="/catalog">Catalog</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="javascript:void(0);">Events</a>--}}
+            {{--<ul class="child-item">--}}
+                {{--<li class="dropdown-child-item">--}}
+                    {{--<a class="nav-link" href="/events">Upcoming Events</a>--}}
+                {{--</li>--}}
+                {{--<li class="dropdown-child-item">--}}
+                    {{--<a class="nav-link" href="04-Events-All-Events.html">Past Events</a>--}}
+                {{--</li>--}}
+                {{--<li class="dropdown-child-item">--}}
+                    {{--<a class="nav-link" href="04-Events-All-Events.html">All Events</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="/blog">Blog</a>--}}
+        {{--</li>--}}
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="/contact">Contact</a>--}}
+        {{--</li>--}}
     </ul>
     <!-- END NAV BAR-->
 </div>
