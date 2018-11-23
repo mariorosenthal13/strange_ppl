@@ -1,5 +1,5 @@
 <!-- START CONTACT US SECTION -->
-<section id="contact-us" class="section_8" style="background-image: url(https://picsum.photos/1920x1024)">
+<section id="contact-us" class="section_8" style="background-image: url({{ url('/img/darkalley.jpg') }})">
     <div class="overly"></div>
     <div class="section">
         <!-- CONTACT US TITLE -->

@@ -1,6 +1,6 @@
 <!-- START ALBUM RELEASE SECTION -->
 <section id="album-release" class="section_2">
-    <div class="section_bg_image" style="background-image: url(https://picsum.photos//1950x375)"></div>
+    <div class="section_bg_image" style="background-image: url( {{ url('/img/darkalley2.jpg') }} )"></div>
     <div class="section">
         <!-- ALBUM RELEASE TITLE -->
         <div class="title">
@@ -17,9 +17,6 @@
                 </a>
                 <p>
                     Our newest release avaialable for pre-order now on beatport
-                </p>
-                <p> Orrrrr if you want just hit us up ,
-                    pay pal us some cash and well send you the files for the low low.
                 </p>
                 <div class="cta">
                     <a href="https://www.beatport.com/release/baby-bumps/2434185">BUY RELEASE FROM BEATPORT</a>

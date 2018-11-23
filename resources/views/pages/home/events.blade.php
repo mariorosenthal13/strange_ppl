@@ -1,7 +1,8 @@
 
 <!-- START EVENTS SECTION -->
 <section id="on-tour" class="section_3">
-    <div class="section_bg_image" style="background-image: url(https://picsum.photos//1920x1024)"></div>
+    <div class="section_bg_image" style="background-image: url( {{ url('/img/darkalley.jpg') }} )"></div>
+    <div class="overly"></div>
     <div class="section">
         <!-- EVENTS TITLE -->
         <div class="title">

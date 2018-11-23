@@ -24,8 +24,8 @@
     {{--<!-- END SEARCH BAR SECTION  -->--}}
     <!-- HEADER BACKGROUND IMAGE  -->
     {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
-    <div class="bg_image" style="background-image: url(../../../../img/mountains.jpg)"></div>
-    <div class="overly"></div>
+    <div class="bg_image" style="background-image: url({{ url('/img/artbaselfirsttry.png') }})"></div>
+    {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
     <div class="header-continer">
         <div class="section">
             <!-- LOGO -->
@@ -48,22 +48,22 @@
     filter: blur(3px); margin-top: 85px; position: fixed; z-index: 999; pointer-events: none;"  src="img/logo-white.png" alt="Logo 1">
         </div>
         <div class="header-title wow zoomIn">
-            <?php
-            $titles = [
-                '<h1>We are <span>Strange</span> People</h1>',
-                '<h1><span>Strange</span> Music For <span>Strange</span> People</h1>',
-                '<h1>Welcome To Our <span>Strange</span> Label</h1>',
-                '<h1>Willing to <span>Strange</span> For Some Change</h1>',
-                '<h1>We All are <span>Strange</span> And Unusual</h1>',
-                '<h1><span>Strange</span> stuff</h1>',
-                '<h1>Welcome To the <span>Strange</span></h1>',
-                '<h1>People are <span>Strange</span></h1>',
-                '<h1><span>Strange</span> People Things</h1>',
-                '<h1>For the <span>Strange</span> Music Lovers</h1>',
-                '<h1><span>Strange</span> Enough</h1>',
-            ];
-            echo $titles[rand(0,9)];
-            ?>
+<!--            --><?php
+//            $titles = [
+//                '<h1>We are <span>Strange</span> People</h1>',
+//                '<h1><span>Strange</span> Music For <span>Strange</span> People</h1>',
+//                '<h1>Welcome To Our <span>Strange</span> Label</h1>',
+//                '<h1>Willing to <span>Strange</span> For Some Change</h1>',
+//                '<h1>We All are <span>Strange</span> And Unusual</h1>',
+//                '<h1><span>Strange</span> stuff</h1>',
+//                '<h1>Welcome To the <span>Strange</span></h1>',
+//                '<h1>People are <span>Strange</span></h1>',
+//                '<h1><span>Strange</span> People Things</h1>',
+//                '<h1>For the <span>Strange</span> Music Lovers</h1>',
+//                '<h1><span>Strange</span> Enough</h1>',
+//            ];
+//            echo $titles[rand(0,9)];
+//            ?>
         </div>
     </div>
 </section>

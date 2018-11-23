@@ -290,6 +290,8 @@ a:focus,a:hover {
 }
 #header .bg_image{
     background-position-y: 0px;
+    background-position: center 0px;
+
 }
 .bg_image{
     position: relative;
@@ -297,10 +299,10 @@ a:focus,a:hover {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
-    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    /*background-position: 50%;*/
+    /*filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');*/
+    /*-webkit-filter: grayscale(100%);*/
+    /*filter: grayscale(100%);*/
 }
 #header .overly{
     background-color: rgba(0, 0, 0, 0.6509803921568628);

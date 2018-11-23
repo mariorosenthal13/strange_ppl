@@ -44,7 +44,6 @@
         <div class="row j_c">
             <div class="col sec_2_content">
                 <div class="cover-image">
-                    <?php xdebug_break(); ?>
                     <img src="{{ url( "/img/" . $artist->picture) }}" alt="Cover Image">
                 </div>
                 <div class="music_date">
