@@ -24,7 +24,7 @@
     {{--<!-- END SEARCH BAR SECTION  -->--}}
     <!-- HEADER BACKGROUND IMAGE  -->
     {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
-    <div class="bg_image" style="background-image: url({{ url('/img/artbaselfirsttry.png') }})"></div>
+    <div class="bg_image" style="background-image: url({{ url('/img/ART-BASEL-12X24.gif') }})"></div>
     {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
     <div class="header-continer">
         <div class="section">
