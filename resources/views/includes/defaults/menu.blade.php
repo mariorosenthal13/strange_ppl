@@ -7,9 +7,9 @@
         <li class="nav-item">
             <a class="nav-link active" href="/">Home</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/artists">Artists</a>
-        </li>
+        {{--<li class="nav-item">--}}
+            {{--<a class="nav-link" href="/artists">Artists</a>--}}
+        {{--</li>--}}
         {{--<li class="nav-item">--}}
             {{--<a class="nav-link" href="javascript:void(0);">Music</a>--}}
             {{--<ul class="child-item">--}}
