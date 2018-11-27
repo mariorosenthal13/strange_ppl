@@ -27,10 +27,9 @@ array_reverse($events);?>
                 <h2>ABOUT STRANGE PEOPLE</h2>
                 <p>We are a collective of underground artists united for the love of music.
                 Everyday we strive in maintaining the absolute perfect balance in musical freedom
-                while keeping the techno dream alive. In this chapter ouf our lives we have come
+                while keeping the techno dream alive. In this chapter of our lives we have come
                 to grow our reach of people and to spread the good message of underground music to the people.
-                Most of us resive in Denver / Miami feel free to shoot us a message for inquires regarding booking
-                or if you just want to shoot the shit with us.</p>
+                Most of us reside in Denver / Miami, feel free to shoot us a message for inquires regarding booking information.</p>
             </div>
             <div class="col">
                 <h2>UPCOMING EVENTS</h2>
@@ -52,7 +51,7 @@ array_reverse($events);?>
                     <img src="{{ url('/img/strange-people-white.png')  }}" alt="Logo">
                 </div>
                 <div class="info">
-                    <p class="main_p">Van Down By the River</p>
+                    <p class="main_p">Miami FL. / Denver CO.</p>
                     {{--<p><a href="tel: +1 (786) 818-0694">Phone: +1 (786) 818-0694</a></p>--}}
                     <p><a href="mailto:support@bets.com">Email: booking@strangeppl.com</a></p>
                 </div>
