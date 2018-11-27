@@ -4,6 +4,62 @@
     <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
     </div>
 @endif
+<style>
+    header {
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    header .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
+        z-index: 1;
+    }
+    @media only screen and (max-width: 600px) {
+        video {
+            padding-top: 229px;
+        }
+    }
+
+
+    @media (pointer: coarse) and (hover: none) {
+        header {
+            background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+        }
+        header video {
+            display: none;
+        }
+    }
+</style>
 <script>
     setTimeout(function() {
         $('#final_msg').fadeOut();
@@ -24,19 +80,25 @@
     {{--<!-- END SEARCH BAR SECTION  -->--}}
     <!-- HEADER BACKGROUND IMAGE  -->
     {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
-    <div class="bg_image" style="background-image: url({{ url('/img/ART-BASEL-12X24.gif') }})"></div>
-    {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
+    {{--<div class="bg_image" style="background-image: url({{ url('/img/ART-BASEL-12X24.gif') }})"></div>--}}
+         <video controls autoplay class="bg_image"  playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="{{ url('/vids/strangebaselvid.mp4') }}" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+
+        {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
     <div class="header-continer">
         <div class="section">
             <!-- LOGO -->
             <div class="logo"><a href="/"><img src="{{ url('/img/strange-people-white.png') }}"  alt="Logo"></a></div>
             <div class="header_items">
-                <div class="menu_icon">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 15.642 15.642" enable-background="new 0 0 15.642 15.642" width="21" height="21">
-                        <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z" fill="#FFFFFF"/>
-                    </svg>
-                </div>
+                {{--//TODO COMENT BACK MAIRO--}}
+                {{--<div class="menu_icon">--}}
+                    {{--<i class="fa fa-bars" aria-hidden="true"></i>--}}
+                    {{--<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 15.642 15.642" enable-background="new 0 0 15.642 15.642" width="21" height="21">--}}
+                        {{--<path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z" fill="#FFFFFF"/>--}}
+                    {{--</svg>--}}
+                {{--</div>--}}
             </div>
         </div>
     </div>
