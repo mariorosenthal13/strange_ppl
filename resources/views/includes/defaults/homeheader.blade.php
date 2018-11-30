@@ -87,6 +87,10 @@
                 class="bg_image"  playsinline="playsinline" muted="muted"  autoplay="true" volume="0">
             <source src="{{ url('/vids/strangebaselvid.mp4') }}" type="video/mp4">
         </video>
+
+        <script>
+            $("video").prop('muted', true);
+        </script>
         <div class="overlay"></div>
 
         {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
