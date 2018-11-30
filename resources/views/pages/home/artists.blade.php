@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col cta">
-            <a href="https://strangebasel.eventbrite.com">Purchase Tickets</a>
+            <a  style="z-index: 9999;" href="https://strangebasel.eventbrite.com">Purchase Tickets</a>
         </div>
     </div>
 </section>

@@ -81,7 +81,7 @@
     <!-- HEADER BACKGROUND IMAGE  -->
     {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
     {{--<div class="bg_image" style="background-image: url({{ url('/img/ART-BASEL-12X24.gif') }})"></div>--}}
-         <video class="bg_image"  playsinline="playsinline" autoplay="true" muted="muted">
+         <video class="bg_image"  playsinline="playsinline" muted="muted" preload="true" autoplay="" volume="0">
             <source src="{{ url('/vids/strangebaselvid.mp4') }}" type="video/mp4">
         </video>
         <div class="overlay"></div>
