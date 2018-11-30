@@ -81,9 +81,12 @@
     <!-- HEADER BACKGROUND IMAGE  -->
     {{--<div class="bg_image" style="background-image: url(https://picsum.photos/1920x1280)"></div>--}}
     {{--<div class="bg_image" style="background-image: url({{ url('/img/ART-BASEL-12X24.gif') }})"></div>--}}
-         {{--<video class="bg_image"  playsinline="playsinline" muted="muted"  autoplay="true" volume="0">--}}
-            {{--<source src="{{ url('/vids/strangebaselvid.mp4') }}" type="video/mp4">--}}
-        {{--</video>--}}
+         <video muted
+                onloadedmetadata="this.muted = true"
+                onmouseenter="play()"
+                class="bg_image"  playsinline="playsinline" muted="muted"  autoplay="true" volume="0">
+            <source src="{{ url('/vids/strangebaselvid.mp4') }}" type="video/mp4">
+        </video>
         <div class="overlay"></div>
 
         {{--<div class="overly"></div> --}}{{--TODO REMOVE --}}
